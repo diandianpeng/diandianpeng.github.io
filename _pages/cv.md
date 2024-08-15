@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Please find the PDF version of CV [here](http://academicpages.github.io/files/CV.pdf)
+
 Education
 ======
 * Doctor of Philosophy in Geology, University of Illinois at Urbana-Champaign (UIUC), 2022
@@ -86,11 +88,14 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Invited talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk.html  %}
-  {% endfor %}</ul>
+* Applications of Mantle Convection Models Across Diverse Subduction Zones and Insights into Overriding Plate Deformation.
+  * Nanjing University. 2024.
+* Studying subduction zone dynamics using numerical models with different dimensions.
+  * Southern University of Scientific and Technology. 2024.
+* Studying circum-Pacific subduction zones with geodynamic models.
+  * Chinese University of Hong Kong. 2023
   
 
   
