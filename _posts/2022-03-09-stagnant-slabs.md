@@ -7,6 +7,6 @@ tags:
   - geodynamic modeling
 ---
 
-Read the blog [here](http://github.com "Github"](https://blogs.egu.eu/divisions/gd/2022/03/09/why-do-some-slabs-stagnate/)
+Read the blog [here](https://blogs.egu.eu/divisions/gd/2022/03/09/why-do-some-slabs-stagnate/)
 
 <!--- This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. --->
