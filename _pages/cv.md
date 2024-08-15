@@ -89,7 +89,7 @@ Publications
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk.html  %}
   {% endfor %}</ul>
   
 
