@@ -17,8 +17,8 @@ Education
 
 Work experience
 ======
-* Postdoctoral Scholar, June 2022 - current IGPP
-  * Scripps Institution of Oceanography, UC San Diego
+* Postdoctoral Scholar, June 2022 - current
+  * IGPP, Scripps Institution of Oceanography, UC San Diego
   * Studying the fast-converging Tonga subduction zone with mantle convection models
   * Investigating plume-slab interaction processes and their geological implications
 * Graduate Research Assistant, 2017 - 2022
