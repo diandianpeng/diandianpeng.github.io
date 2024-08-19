@@ -26,15 +26,31 @@ I have studied the subduction history of Izanagi plate and Pacific plate beneath
 
 Flat subduction of the Izanagi slab
 ------
-We discovered a continental-scale flat slab beneath East Asia in late Cretaceous. This flat subduction explains the lithospheric structure of East Asia.
+<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/izanagi_slab.png">
+
+&nbsp;&nbsp;&nbsp;We discovered a continental-scale flat slab beneath East Asia in late Cretaceous. This flat subduction explains the lithospheric structure of East Asia.
+
+<br clear="right"/>
+
 
 Stagnant slab beneath East Asia
 ------
-We proposed that the formation of the stagnant slab beneath East Asia is mainly controlled by a regional westward mantle wind induced by the sinking Izanagi slab.
+<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/subduction_east_asia.png">
+
+&nbsp;&nbsp;&nbsp;We proposed that the formation of the stagnant slab beneath East Asia is mainly controlled by a regional westward mantle wind induced by the sinking Izanagi slab.
+
+<br clear="right"/>
+
 
 The subduction of Tonga slab and opening of the Lau Basin
 ======
-We found that the opening of the Lau Basin is associated with the eastward migration of the Lau Ridge.
+
+<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/lau_basin_opening.png">
+
+&nbsp;&nbsp;&nbsp;We found that the opening of the Lau Basin is associated with the eastward migration of the Lau Ridge.
+
+<br clear="right"/>
+
 
 For more info
 ======
