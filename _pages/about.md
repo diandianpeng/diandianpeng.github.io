@@ -18,7 +18,7 @@ Global data-assimilation models
 
 &nbsp;&nbsp;&nbsp;I run global thermal chemical models with data-assimilation to study the evolution of the Earth's interior.
 
-<br clear="right"/>
+<br clear="left"/>
 
 Subduction beneath East Asia
 ======
