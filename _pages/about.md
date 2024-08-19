@@ -13,6 +13,9 @@ My research is focused on geophysics, including but not limited to geodynamics, 
 
 Global data-assimilation models
 ======
+
+<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/global_models.gif">
+
 I run global thermal chemical models with data-assimilation to study the evolution of the Earth's interior.
 
 Subduction beneath East Asia
