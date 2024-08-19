@@ -26,7 +26,7 @@ I have studied the subduction history of Izanagi plate and Pacific plate beneath
 
 Flat subduction of the Izanagi slab
 ------
-<img align="left" width="470" src="https://diandianpeng.github.io/images/subduction_east_asia.png">
+<img align="left" width="470" src="https://diandianpeng.github.io/images/subduction_east_asia.png" style="border:5px solid white">
 
 &nbsp;&nbsp;&nbsp;We discovered a continental-scale flat slab beneath East Asia in late Cretaceous. This flat subduction explains the lithospheric structure of East Asia.
 
