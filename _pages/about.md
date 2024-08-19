@@ -47,7 +47,7 @@ The subduction of Tonga slab and opening of the Lau Basin
 
 &nbsp;&nbsp;&nbsp;We found that the opening of the Lau Basin is associated with the eastward migration of the Lau Ridge.
 
-<br clear="right"/>
+<br clear="left"/>
 
 For more info
 ======
