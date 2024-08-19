@@ -14,7 +14,7 @@ My research is focused on geophysics, including but not limited to geodynamics, 
 Global data-assimilation models
 ======
 
-<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/global_models.gif">
+<img align="left" width="600" height="300" src="https://diandianpeng.github.io/images/global_models.gif">
 
 &nbsp;&nbsp;&nbsp;I run global thermal chemical models with data-assimilation to study the evolution of the Earth's interior.
 
@@ -26,24 +26,24 @@ I have studied the subduction history of Izanagi plate and Pacific plate beneath
 
 Flat subduction of the Izanagi slab
 ------
-<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/subduction_east_asia.png">
+<img align="left" width="600" height="300" src="https://diandianpeng.github.io/images/subduction_east_asia.png">
 
 &nbsp;&nbsp;&nbsp;We discovered a continental-scale flat slab beneath East Asia in late Cretaceous. This flat subduction explains the lithospheric structure of East Asia.
 
-<br clear="right"/>
+<br clear="left"/>
 
 Stagnant slab beneath East Asia
 ------
-<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/izanagi_slab.png">
+<img align="left" width="600" height="300" src="https://diandianpeng.github.io/images/izanagi_slab.png">
 
 &nbsp;&nbsp;&nbsp;We proposed that the formation of the stagnant slab beneath East Asia is mainly controlled by a regional westward mantle wind induced by the sinking Izanagi slab.
 
-<br clear="right"/>
+<br clear="left"/>
 
 The subduction of Tonga slab and opening of the Lau Basin
 ======
 
-<img align="left" width="200" height="100" src="https://diandianpeng.github.io/images/lau_basin_opening.png">
+<img align="left" width="600" height="300" src="https://diandianpeng.github.io/images/lau_basin_opening.png">
 
 &nbsp;&nbsp;&nbsp;We found that the opening of the Lau Basin is associated with the eastward migration of the Lau Ridge.
 
