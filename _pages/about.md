@@ -14,7 +14,7 @@ My research interests encompass various aspects of geophysics, including geodyna
 Global data-assimilation models
 ======
 <img align="left" width="470" src="https://diandianpeng.github.io/images/global_models.gif">
-I run global thermal-chemical models with data assimilation to understand the Earth's mantle dynamic and provide insights into the evolution of LLSVPs, the complex interplay between plumes and slabs, and the generation of realistic topography. The results align with multidisciplinary observations, offering a comprehensive understanding of various geological phenomena.
+I run global thermal-chemical models with data assimilation to understand the Earth's mantle dynamic and provide insights into the evolution of LLSVPs, the complex interplay between plumes and slabs, and the realistic topography. The results align with multidisciplinary observations, offering a comprehensive understanding of various geological phenomena.
 
 <br clear="left"/>
 
