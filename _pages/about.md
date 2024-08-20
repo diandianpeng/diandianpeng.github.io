@@ -9,7 +9,7 @@ redirect_from:
 
 I am a postdoctoral scholar at the [Scripps Institution of Oceanography](https://scripps.ucsd.edu/), [University of California, San Diego](https://ucsd.edu/), working with [Dr. Dave Stegman](https://dstegman.scrippsprofiles.ucsd.edu/) on slab-plume interaction dynamics. I earned my Ph.D. in Geology from the University of Illinois, Urbana-Champaign, under the supervision of Dr. Lijun Liu. Prior to that, I received both my Master's and Bachelor's degrees in Geophysics from the University of Science and Technology of China.
 
-My research interests encompass various aspects of geophysics, including geodynamics, plate tectonics, mantle heterogeneities, seismic anisotropy, and the topographic responses to mantle convection.
+My research interests span a broad spectrum of geophysical topics, including, but not limited to, geodynamics, plate tectonics, mantle heterogeneities, seismic anisotropy, and the effects of mantle convection on surface topography.
 
 Global data-assimilation models
 ======
