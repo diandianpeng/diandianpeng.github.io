@@ -18,25 +18,25 @@ I run global thermal-chemical models with data assimilation to understand the Ea
 
 <br clear="left"/>
 
-Subduction beneath East Asia
+Subduction history beneath East Asia
 ======
 One of my research focuses is reconstructing the subduction history of the Izanagi and Pacific plates beneath East Asia. By analyzing geological records and geophysical observations, I aim to elucidate the complex subduction and tectonic processes that have shaped this region.
 
-Flat subduction of the Izanagi slab
+The Late Cretaceous flat Izanagi slab
 ------
 <img align="left" width="470" src="https://diandianpeng.github.io/images/subduction_east_asia.png" style="border:5px solid white">
 My research has identified a continental-scale flat Izanagi slab beneath East Asia during the Late Cretaceous. This unique subduction event provides a compelling explanation for several key geological features in the region, including lithospheric structure, magmatic activity, and surface uplift/subsidence patterns. Prolonged subduction is likely the primary driver of this flat slab configuration.
 
 <br clear="left"/>
 
-Stagnant slab beneath East Asia
+The stagnant Pacific and Philippine Sea slabs
 ------
 <img align="left" width="470" src="https://diandianpeng.github.io/images/izanagi_slab.png">
 The models reproduced the observed stagnant slabs beneath East Asia. I proposed a novel mechanism in which the formation of this stagnant slab is primarily controlled by a regional westward mantle wind. The simulated seismic anisotropy derived from mantle flow aligns with seismic observations, further supporting the existence of this mantle wind.
 
 <br clear="left"/>
 
-The subduction of Tonga slab and opening of the Lau Basin
+The special Tonga-Kermadec subduction zone
 ======
 <img align="left" width="470" src="https://diandianpeng.github.io/images/lau_basin_opening.png">
 The Tonga-Kermadec subduction zone, characterized by its exceptionally high convergence rate, presents a significant challenge for modeling subduction dynamics. To address this, we employed a novel boundary condition incorporating nonlinear rheology. Our model successfully reproduced the observed slab structure and the opening of the Lau Basin. We found that the eastward migration of the Lau Ridge is linked to the basin's formation.
