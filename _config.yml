@@ -28,7 +28,7 @@ author:
   location         : "La Jolla, CA"
   employer         : "SIO, UCSD"
   uri              : # URL
-  email            : "d3peng@ucsd.edu"
+  email            : "'d3peng@ucsd.edu'"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -82,7 +82,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : "https://scholar.google.com/citations?user=DKeE4JoAAAAJ&hl=en&oi=ao" # blank (default) uses feed.xml
 
 
