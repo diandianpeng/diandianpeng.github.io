@@ -158,6 +158,22 @@ p { color: #34414f; }
 .cv-list { margin: 0.5rem 0; padding-left: 1.2rem; }
 .cv-list li { margin: 0.3rem 0; }
 .cv-list ul { margin: 0.3rem 0; }
+.cv-intro { font-size: 1.04rem; color: #34414f; max-width: 60ch; margin: 0 0 1.1rem; }
+
+/* date-aligned (timeline) CV entries */
+.cv-entry { display: grid; grid-template-columns: 150px 1fr; gap: 1.4rem; margin: 0.95rem 0; }
+.cv-entry__date { color: var(--muted); font-size: 0.9rem; padding-top: 0.1rem; }
+.cv-entry__body p { margin: 0; }
+.cv-entry__body p + p { margin-top: 0.3rem; }
+.cv-entry__role { font-weight: 600; color: var(--ink); }
+.cv-entry__org { color: var(--muted); }
+.cv-entry__note { color: #3c4856; font-size: 0.95rem; }
+.cv-entry__detail { margin: 0.45rem 0 0; padding-left: 1.1rem; color: #3c4856; font-size: 0.96rem; }
+.cv-entry__detail li { margin: 0.22rem 0; }
+@media (max-width: 640px) {
+  .cv-entry { grid-template-columns: 1fr; gap: 0.2rem; }
+  .cv-entry__date { padding-top: 0; font-weight: 600; color: var(--accent); }
+}
 
 /* ---- CTA row ---- */
 .cta-row { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 1.8rem 0 0; }
