@@ -11,7 +11,7 @@ step. Hosted on GitHub Pages and served exactly as written.
 ## Structure
 
 ```
-index.html              Home (intro, research teaser, model animations, about)
+index.html              Home (intro, research + model animations, about)
 research/index.html     Research (the four projects in detail)
 publications/index.html Publications (peer-reviewed journal articles + book)
 talks/index.html        Talks & seminars

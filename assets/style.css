@@ -140,6 +140,8 @@ p { color: #34414f; }
 .video-fig { margin: 0; }
 .video-fig video { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--border); background: #52576e; }
 .video-fig figcaption { margin-top: 0.55rem; color: var(--muted); font-size: 0.92rem; text-align: center; }
+.video-note { color: var(--muted); font-size: 0.9rem; margin: 0.8rem 0 0; text-align: center; }
+.research-sub { font-family: var(--serif); font-weight: 600; font-size: 1.18rem; margin: 2rem 0 0.9rem; }
 @media (max-width: 640px) { .video-grid { grid-template-columns: 1fr; } }
 
 /* compact research teaser (home page) */
