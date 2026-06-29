@@ -11,12 +11,13 @@ step. Hosted on GitHub Pages and served exactly as written.
 ## Structure
 
 ```
-index.html              Home (intro, research highlights, about)
+index.html              Home (intro, research teaser, about)
+research/index.html     Research (the four projects in detail)
 publications/index.html Publications (peer-reviewed journal articles)
 talks/index.html        Talks & seminars
 cv/index.html           CV
 assets/style.css        All styles
-images/                 Photo, research figures, favicon
+images/                 Photo, research figures, favicon, share banner
 files/                  CV and paper PDFs
 sitemap.xml, robots.txt SEO
 ```
