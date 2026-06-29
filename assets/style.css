@@ -115,7 +115,7 @@ p { color: #34414f; }
 .note code { background: #fff; padding: 0.05em 0.35em; border-radius: 5px; font-size: 0.92em; }
 
 /* ---- Section intro ---- */
-.section__intro { font-size: 1.06rem; color: #34414f; max-width: 62ch; margin: 0 0 2.2rem; }
+.section__intro { font-size: 1.06rem; color: #34414f; margin: 0 0 2.2rem; }
 
 /* ---- Research features (figure + text, alternating) ---- */
 .features { display: flex; flex-direction: column; gap: 2.8rem; }
@@ -133,7 +133,7 @@ p { color: #34414f; }
 .feature__ref a { font-size: 0.9rem; font-weight: 600; }
 
 /* "see publications" line on the Research page */
-.research-more { max-width: 62ch; margin: 2.4rem 0 0; color: #34414f; }
+.research-more { margin: 2.4rem 0 0; color: #34414f; }
 
 /* model animation videos (home) */
 .video-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; }
@@ -178,7 +178,7 @@ p { color: #34414f; }
 .cv-list { margin: 0.5rem 0; padding-left: 1.2rem; }
 .cv-list li { margin: 0.3rem 0; }
 .cv-list ul { margin: 0.3rem 0; }
-.cv-intro { font-size: 1.04rem; color: #34414f; max-width: 60ch; margin: 0 0 1.1rem; }
+.cv-intro { font-size: 1.04rem; color: #34414f; margin: 0 0 1.1rem; }
 
 /* date-aligned (timeline) CV entries */
 .cv-entry { display: grid; grid-template-columns: 150px 1fr; gap: 1.4rem; margin: 0.95rem 0; }
