@@ -11,13 +11,15 @@ step. Hosted on GitHub Pages and served exactly as written.
 ## Structure
 
 ```
-index.html              Home (intro, research teaser, about)
+index.html              Home (intro, research teaser, model animations, about)
 research/index.html     Research (the four projects in detail)
-publications/index.html Publications (peer-reviewed journal articles)
+publications/index.html Publications (peer-reviewed journal articles + book)
 talks/index.html        Talks & seminars
-cv/index.html           CV
-assets/style.css        All styles
-images/                 Photo, research figures, favicon, share banner
+cv/index.html           CV (timeline layout)
+404.html                Custom not-found page
+assets/style.css        All styles (one content width: the --page-max variable)
+images/                 Photo, research figures, favicon, social-share banner
+media/                  Model-animation videos (H.264 mp4) + poster frames
 files/                  CV and paper PDFs
 sitemap.xml, robots.txt SEO
 ```
@@ -29,6 +31,13 @@ sitemap.xml, robots.txt SEO
   citation, and PDF link.
 - **Add a talk:** copy a `<div class="talk"> … </div>` block in `talks/index.html`.
 - **Update the CV:** edit `cv/index.html` (and replace `files/CV.pdf`).
+- **Add/replace a model animation:** browsers only play **H.264** in `<video>`, so
+  re-encode the clip and drop it in `media/`, then add a `<figure class="video-fig">`
+  block in `index.html`. Example:
+  ```bash
+  ffmpeg -i in.mp4 -an -vf scale=960:-2 -c:v libx264 -pix_fmt yuv420p -crf 26 -movflags +faststart media/out.mp4
+  ```
+- All pages share one content width — the `--page-max` variable in `assets/style.css`.
 - Shared header/footer markup is repeated in each page — if you change the nav,
   update it on every page.
 
