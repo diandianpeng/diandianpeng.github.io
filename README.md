@@ -30,7 +30,12 @@ sitemap.xml, robots.txt SEO
   `<article class="pub"> … </article>` block, then edit the title, venue, year,
   citation, and PDF link.
 - **Add a talk:** copy a `<div class="talk"> … </div>` block in `talks/index.html`.
-- **Update the CV:** edit `cv/index.html` (and replace `files/CV.pdf`).
+- **Update the CV:** edit the web page `cv/index.html`. The downloadable
+  `files/CV.pdf` is generated from `cv/cv-print.html` (a print-only source, not
+  linked in the nav) — edit that file and re-render with headless Chrome:
+  ```bash
+  node tools/render-cv.mjs   # writes files/CV.pdf (needs Google Chrome + a network connection)
+  ```
 - **Add/replace a model animation:** browsers only play **H.264** in `<video>`, so
   re-encode the clip and drop it in `media/`, then add a `<figure class="video-fig">`
   block in `index.html`. Example:

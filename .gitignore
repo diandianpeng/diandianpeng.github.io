@@ -13,3 +13,6 @@ package-lock.json
 
 # Local-only Claude Code guidance (not published)
 CLAUDE.md
+
+# Transient Chrome profile from tools/render-cv.mjs
+tools/.chrome-cv-profile/

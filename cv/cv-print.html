@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Diandian Peng — CV</title>
+  <!--
+    PRINT SOURCE for files/CV.pdf. Not linked in the site nav or sitemap.
+    Edit this file, then re-render to PDF (headless Chrome + DevTools; adds the
+    running footer with page numbers, and embeds fonts — keep a network connection):
+
+      node tools/render-cv.mjs
+
+    Writes files/CV.pdf by default.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #2a4d75;
+      --ink: #1d2733;
+      --muted: #5d6b7c;
+      --sub: #3c4856;
+      --rule: #d7e0ea;
+      --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    @page { size: letter; margin: 0.6in 0.72in; }
+
+    * { box-sizing: border-box; }
+    html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--ink);
+      font-size: 9.7pt;
+      line-height: 1.36;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    b, strong { font-weight: 600; }
+    em, i { font-style: italic; }
+
+    /* ---- Header ---- */
+    .masthead { margin-bottom: 6pt; }
+    .eyebrow {
+      font-size: 8pt; font-weight: 600; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--accent); margin: 0 0 2pt;
+    }
+    .name {
+      font-family: var(--serif); font-weight: 700; font-size: 23pt;
+      color: var(--ink); letter-spacing: -0.01em; line-height: 1.05; margin: 0 0 5pt;
+    }
+    .contact { font-size: 8.8pt; color: var(--muted); margin: 0; }
+    .contact a { color: var(--muted); }
+    .contact .sep { color: #b7c2d0; padding: 0 5pt; }
+
+    /* ---- Sections ---- */
+    section { break-inside: auto; }
+    h2 {
+      font-family: var(--serif); font-weight: 600; font-size: 12.5pt;
+      color: var(--accent); margin: 13pt 0 6pt;
+      padding-bottom: 2.5pt; border-bottom: 1px solid var(--rule);
+      break-after: avoid; break-inside: avoid;
+    }
+    .subhead { break-after: avoid; }
+
+    /* ---- Date-aligned entries ---- */
+    .entry { margin: 0 0 5pt; break-inside: avoid; }
+    .row {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 14pt;
+    }
+    .row .t { flex: 1; }
+    .row .d {
+      flex: none; color: var(--muted); font-size: 9pt; white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+    .sub { color: var(--sub); font-size: 9.3pt; margin: 1pt 0 0; }
+
+    ul.bul { margin: 2pt 0 0; padding-left: 13pt; }
+    ul.bul li { color: var(--sub); font-size: 9.3pt; margin: 0.5pt 0; }
+
+    ul.plain { margin: 2pt 0 0; padding-left: 13pt; }
+    ul.plain li { margin: 1pt 0; }
+
+    /* ---- Reference lists (publications, abstracts): flush first line, hanging wrap ---- */
+    .refs { margin: 2pt 0 0; }
+    .ref {
+      margin: 0 0 4pt; font-size: 9.4pt; break-inside: avoid;
+      padding-left: 16pt; text-indent: -16pt;
+    }
+    .ref .n { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 4pt; }
+    .refs a { font-size: 8.6pt; color: var(--muted); font-weight: 500; }
+    .note-star { color: var(--muted); font-size: 8.6pt; margin: 3pt 0 0; }
+
+    .subhead {
+      font-family: var(--serif); font-weight: 600; font-size: 10pt;
+      color: var(--ink); margin: 7pt 0 3pt;
+    }
+    .talk .t b { color: var(--ink); }
+    /* keep a short section from splitting across a page break */
+    .keep { break-inside: avoid; }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <p class="eyebrow">Geodynamicist</p>
+    <h1 class="name">Diandian Peng</h1>
+    <p class="contact">
+      <a href="https://diandianpeng.github.io">diandianpeng.github.io</a><span class="sep">|</span>
+      <a href="mailto:pengdiand@gmail.com">pengdiand@gmail.com</a><span class="sep">|</span>
+      +1 (980) 517-0807
+    </p>
+    <p class="contact" style="margin-top:2pt;">
+      <a href="https://orcid.org/0000-0002-8664-2164">ORCID 0000-0002-8664-2164</a><span class="sep">|</span>
+      <a href="https://scholar.google.com/citations?user=DKeE4JoAAAAJ&hl=en">Google Scholar</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Education</h2>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Ph.D. in Geology</b>, University of Illinois at Urbana-Champaign (UIUC)</span><span class="d">May 2022</span></div>
+      <p class="sub">Thesis: <em>Quantifying slab evolution and mantle flow using global subduction models with data assimilation.</em><br>Advisor: Lijun Liu. Committee: Jay Bass, Patricia Gregg, and William Guenthner.</p>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>M.S. in Geophysics</b>, University of Science and Technology of China (USTC)</span><span class="d">June 2017</span></div>
+      <p class="sub">Thesis: <em>Geodynamic modeling of the evolution around the southeastern Tibetan Plateau.</em></p>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>B.S. in Geophysics</b>, School of the Gifted Young, USTC</span><span class="d">June 2014</span></div>
+      <p class="sub">Thesis: <em>A preliminary dynamical simulation for the evolution of the Tibetan Plateau.</em></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Experience</h2>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Independent Researcher</b></span><span class="d">2025 – present</span></div>
+      <ul class="bul">
+        <li>Stepped away from a full-time academic appointment to be a full-time parent, while staying active in the research community.</li>
+        <li>Continue to review manuscripts for journals in geodynamics, tectonics, and mantle dynamics, and welcome new review invitations.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Postdoctoral Scholar</b>, Scripps Institution of Oceanography, UC San Diego</span><span class="d">2022 – 2025</span></div>
+      <ul class="bul">
+        <li>Modeled the Tonga–Kermadec subduction zone, the fastest-retreating trench on Earth, with mantle-convection simulations.</li>
+        <li>Investigated the formation of Large Low-Shear-Velocity Provinces (LLSVPs) and mantle plumes.</li>
+        <li>Studied plume–slab interactions and their geological implications.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Graduate Research Assistant</b>, UIUC</span><span class="d">2017 – 2022</span></div>
+      <ul class="bul">
+        <li>Developed global and regional mantle-convection models with data assimilation.</li>
+        <li>Investigated the formation of unusual slab geometries and their surface expression.</li>
+        <li>Studied seismic anisotropy and the migration of slab material with mantle flow.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Graduate Research Assistant</b>, USTC</span><span class="d">2014 – 2017</span></div>
+      <ul class="bul">
+        <li>Studied the uplift of the Tibetan Plateau and its steep margins.</li>
+        <li>Analyzed crustal channel flow using analytical and numerical methods.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Undergraduate Research Assistant</b>, USTC</span><span class="d">2013 – 2014</span></div>
+      <ul class="bul">
+        <li>Explored the evolution of the Tibetan Plateau with numerical models.</li>
+        <li>Studied the thermal structure of the continental lithosphere from heat-flow data.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Interests</h2>
+    <ul class="plain">
+      <li>Developing and applying novel numerical-modeling techniques.</li>
+      <li>The interplay between mantle dynamics and tectonic plates.</li>
+      <li>The diverse range of subduction processes and their mechanisms.</li>
+      <li>The formation, evolution, and dynamics of LLSVPs and mantle plumes.</li>
+      <li>Plume–slab interactions and the resulting lithospheric deformation and volcanism.</li>
+      <li>Using geophysical, geochemical, and geological data to constrain mantle dynamics and lithospheric structure.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Computational &amp; Technical Skills</h2>
+    <ul class="plain">
+      <li><b>Geodynamic modeling:</b> global and regional mantle-convection modeling with sequential data assimilation; forward and adjoint (retrodiction) approaches linking deep-mantle flow to surface observables.</li>
+      <li><b>Modeling &amp; visualization tools:</b> CitcomS, ASPECT (mantle convection); GPlates (plate reconstructions); ParaView, VisIt, GMT.</li>
+      <li><b>Programming:</b> Python (NumPy, SciPy, Pandas, Matplotlib), C, C++, Fortran, MATLAB, Bash; Git, Linux.</li>
+      <li><b>Methods &amp; computing:</b> finite-element and finite-difference methods, parallel / high-performance computing (TACC Frontera), inverse problems, signal processing, and machine learning.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <p class="subhead">Peer-reviewed journal articles</p>
+    <div class="refs">
+      <div class="ref"><span class="n">16.</span><span class="c">Zhu, T., <b>Peng, D.</b> and Liu, L. (2025). High-speed anomaly zone beneath the Changbaishan volcanic province in NE China: Insights from simulation of the Cenozoic Pacific plate subduction using geodynamic models with data assimilation. <em>Journal of Asian Earth Sciences.</em> <a href="https://www.sciencedirect.com/science/article/abs/pii/S1367912025002299">[link]</a></span></div>
+      <div class="ref"><span class="n">15.</span><span class="c">Zhu, T., <b>Peng, D.</b> and Liu, L. (2025). Factors affecting the Pacific plate subduction towards and under the Changbaishan volcanic province since the Cenozoic: Insights from geodynamic modeling based on data assimilation. <em>Tectonophysics.</em> <a href="https://diandianpeng.github.io/files/2024_Zhu_TectPhys.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">14.</span><span class="c">Zhu, T., <b>Peng, D.</b> and Liu, L. (2025). Effects of 410- and 660-km seismic discontinuities on the Pacific plate subduction and slab geometry beneath the Changbaishan volcanic province. <em>Acta Seismologica Sinica</em> (in Chinese).</span></div>
+      <div class="ref"><span class="n">13.</span><span class="c"><b>Peng, D.</b> and Stegman, D.R. (2024). Modeling subduction with extremely fast trench retreat. <em>Journal of Geophysical Research: Solid Earth.</em> <a href="https://diandianpeng.github.io/files/2024_Peng_JGR.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">12.</span><span class="c"><b>Peng, D.</b> and Stegman, D.R. (2024). Geodynamic evolution of the Lau Basin. <em>Geophysical Research Letters.</em> <a href="https://diandianpeng.github.io/files/2024_Peng_GRL.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">11.</span><span class="c">Li, Y.<sup>*</sup>, Liu, L., Li, S., <b>Peng, D.</b>, Cao, Z. and Li, X. (2024). Cenozoic India–Asia collision driven by mantle dragging the cratonic root. <em>Nature Communications.</em> <a href="https://diandianpeng.github.io/files/2024_Li_NC.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">10.</span><span class="c">Xue, T., <b>Peng, D.</b>, Liu, K.H., Obrist-Farner, J., Locmelis, M., Gao, S.S. and Liu, L. (2023). Ongoing fragmentation of the subducting Cocos slab, Central America. <em>Geology.</em> <a href="https://diandianpeng.github.io/files/2023_Xue_Geology.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">9.</span><span class="c">Li, Y.<sup>*</sup>, Liu, L., <b>Peng, D.</b>, Dong, H. and Li, S. (2023). Evaluating tomotectonic plate reconstructions using geodynamic models with data assimilation, the case for North America. <em>Earth-Science Reviews.</em> <a href="https://diandianpeng.github.io/files/2023_Li_ESR.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">8.</span><span class="c">Wang, Y., Cao, Z., Peng, L., Liu, L., Chen, L., Lundstrom, C., <b>Peng, D.</b> and Yang, X. (2023). Secular craton evolution due to cyclic deformation of underlying dense mantle lithosphere. <em>Nature Geoscience.</em> <a href="https://diandianpeng.github.io/files/2023_Wang_NGeo.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">7.</span><span class="c"><b>Peng, D.</b> and Liu, L. (2023). Importance of global spherical geometry for studying slab dynamics and evolution in models with data assimilation. <em>Earth-Science Reviews.</em> <a href="https://diandianpeng.github.io/files/2023_Peng_ESR.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">6.</span><span class="c">Liu, Y.<sup>*</sup>, Liu, L., Li, Y.<sup>*</sup>, <b>Peng, D.</b>, Wu, Z., Cao, Z., Li, S. and Du, Q. (2022). Global back-arc extension due to trench-parallel mid-ocean ridge subduction. <em>Earth and Planetary Science Letters.</em> <a href="https://diandianpeng.github.io/files/2022_Liu_EPSL.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">5.</span><span class="c"><b>Peng, D.</b> and Liu, L. (2022). Quantifying slab sinking rates using global geodynamic models with data assimilation. <em>Earth-Science Reviews.</em> <a href="https://diandianpeng.github.io/files/2022_Peng_ESR.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">4.</span><span class="c"><b>Peng, D.</b>, Liu, L. and Wang, Y. (2021). A newly discovered Late-Cretaceous East Asian flat slab explains its unique lithospheric structure and tectonics. <em>Journal of Geophysical Research: Solid Earth.</em> <a href="https://diandianpeng.github.io/files/2021_Peng_JGR.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">3.</span><span class="c"><b>Peng, D.</b>, Liu, L., Hu, J., Li, S. and Liu, Y.<sup>*</sup> (2021). Formation of East Asian stagnant slabs due to a pressure-driven Cenozoic mantle wind following Mesozoic subduction. <em>Geophysical Research Letters.</em> <a href="https://diandianpeng.github.io/files/2021_Peng_GRL.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">2.</span><span class="c">Liu, L., <b>Peng, D.</b>, Liu, L., Chen, L., Li, S., Wang, Y., Cao, Z. and Feng, M. (2021). East Asian lithospheric evolution dictated by multistage Mesozoic flat-slab subduction. <em>Earth-Science Reviews.</em> <a href="https://diandianpeng.github.io/files/2021_Liu_ESR.pdf">[pdf]</a></span></div>
+      <div class="ref"><span class="n">1.</span><span class="c"><b>Peng, D.</b> and Leng, W. (2017). Analytical and numerical simulations of uplift processes at the Tibet–Sichuan boundary. <em>Earthquake Science.</em> <a href="https://diandianpeng.github.io/files/2017_Peng_Eqs.pdf">[pdf]</a></span></div>
+    </div>
+
+    <p class="subhead">Book</p>
+    <div class="refs">
+      <div class="ref"><span class="n">1.</span><span class="c">Li, S., Zhu, J., Cao, X., Liu, L., Zhou, J. and <b>Peng, D.</b> (2023). <em>Atlas of Global Mantle Microplates with Tomographic Images.</em> Science Press (Beijing). ISBN 9787030752086. Selected as one of the "Outstanding Marine Science and Technology Books for 2024" by the Chinese Society for Oceanography.</span></div>
+    </div>
+
+    <p class="subhead">Preprint</p>
+    <div class="refs">
+      <div class="ref"><span class="n">1.</span><span class="c">Suo, Y., Dong, H., Liu, L., <b>Peng, D.</b>, Li, Y.<sup>*</sup>, Liu, J., Dai, L., Cao, X. and Li, S. (2022). Landward mantle flow associated with the Pacific subduction system opened the South China Sea.</span></div>
+    </div>
+
+    <p class="subhead">In preparation</p>
+    <div class="refs">
+      <div class="ref"><span class="n">2.</span><span class="c"><b>Peng, D.</b>, Stegman, D.R., Day, J.M.D., Parnell-Turner, R., Liu, L. and Wang, Y. Intraplate Indian Ocean magmatism and the Toba supervolcano produced by the Capricorn plume.</span></div>
+      <div class="ref"><span class="n">1.</span><span class="c"><b>Peng, D.</b>, Liu, L., Cao, Z., Li, Y.<sup>*</sup>, Stegman, D.R. and Wang, Y. Cenozoic uplift of the western US due to removal of dense lithospheric roots.</span></div>
+    </div>
+    <p class="note-star"><sup>*</sup> Student I mentored.</p>
+  </section>
+
+  <section>
+    <h2>Grants &amp; Computing Allocations</h2>
+    <div class="entry">
+      <div class="row"><span class="t"><b>TACC Frontera</b> — Simulating slab–plume interaction with realistic mantle convection models (PI: Dave Stegman)</span><span class="d">2023 – 2025</span></div>
+      <p class="sub">Awarded 224,640 SUs (12.6 M core-hours) in 2025, 230,520 SUs (12.9 M) in 2024, and 225,000 SUs (12.6 M) in 2023. Contributed to the scientific justification, usage plan, and proposal, and ran the computations on Frontera.</p>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>NSF EAR 2244660</b> — Investigating formation of stagnant slabs and implications for subduction dynamics ($333,141; PIs: Lijun Liu and Craig Lundstrom)</span><span class="d">2023</span></div>
+      <p class="sub">Contributed to the scientific justification and figures.</p>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>NSF OAC 2031704</b> — NSF Frontera Allocation Travel Grant ($10,000; PI: Lijun Liu)</span><span class="d">2020</span></div>
+      <p class="sub">Contributed to the scientific justification and figures.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Honors &amp; Awards</h2>
+    <div class="entry"><div class="row"><span class="t">Cecil H. and Ida M. Green Postdoctoral Fellowship (IGPP, Scripps, UC San Diego) — $138,000</span><span class="d">2022 – 2024</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Bluestem Fellowship (UIUC)</span><span class="d">2017 – 2018</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Graduate Student First-Class Academic Scholarship (USTC)</span><span class="d">2014 – 2016</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Outstanding Student Paper Award (CGU)</span><span class="d">2015</span></div></div>
+    <div class="entry"><div class="row"><span class="t">National Encouragement Scholarship (USTC)</span><span class="d">2013</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Outstanding Student Scholarship (USTC)</span><span class="d">2013</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Outstanding Freshman Scholarship (USTC)</span><span class="d">2010</span></div></div>
+  </section>
+
+  <section class="keep">
+    <h2>Invited Talks</h2>
+    <div class="entry talk"><div class="row"><span class="t"><b>University of South Florida</b> — "Where the mantle wind blows."</span><span class="d">2025</span></div></div>
+    <div class="entry talk"><div class="row"><span class="t"><b>Nanjing University</b> — "Applications of mantle convection models across diverse subduction zones, and insights into overriding-plate deformation."</span><span class="d">2024</span></div></div>
+    <div class="entry talk"><div class="row"><span class="t"><b>Southern University of Science and Technology (SUSTech)</b> — "Studying subduction-zone dynamics using numerical models of different dimensions."</span><span class="d">2024</span></div></div>
+    <div class="entry talk"><div class="row"><span class="t"><b>Chinese University of Hong Kong</b> — "Studying circum-Pacific subduction zones with geodynamic models."</span><span class="d">2023</span></div></div>
+    <div class="entry talk"><div class="row"><span class="t"><b>Scripps Institution of Oceanography, UC San Diego</b> — IGPP Seminar Series.</span><span class="d">2023</span></div></div>
+  </section>
+
+  <section>
+    <h2>Conference Presentations</h2>
+    <div class="refs">
+      <div class="ref nonum"><span class="c">Liu, L., Cao, Z., Li, Y.<sup>*</sup>, Li, X., Dong, H. and <b>Peng, D.</b> (2026). Revisiting the temporal evolution of oceanic subduction. <em>EGU General Assembly.</em></span></div>
+      <div class="ref nonum"><span class="c">Liu, L., <b>Peng, D.</b> and Li, Y.<sup>*</sup> (2023). What drives uplift of west-central North America since the Late Cretaceous? <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Liu, L., Li, Y.<sup>*</sup>, <b>Peng, D.</b> and He, X. (2023). Investigating East Asian lithospheric evolution since the Cretaceous. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Li, Y.<sup>*</sup>, Liu, L. and <b>Peng, D.</b> (2022). What drives the post-collisional northward Indian motion? <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c"><b>Peng, D.</b>, Liu, L., Chen, L. and Li, S. (2021). East Asian lithospheric evolution in response to west Pacific subduction since 100 Ma. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c"><b>Peng, D.</b> and Liu, L. (2021). Quantifying horizontal vs. vertical motions of subducted slabs using global geodynamic models with data assimilation. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Liu, L., <b>Peng, D.</b>, Liu, L., Li, Y.<sup>*</sup> and Chen, L. (2021). A new geodynamic framework for the evolution from intraplate orogeny to continental extension. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Li, Y.<sup>*</sup>, <b>Peng, D.</b>, Cao, Z. and Liu, L. (2021). Continental-scale converging mantle flow beneath Eurasia and America, from model to observation. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Liu, L., Zhou, Q. and <b>Peng, D.</b> (2021). Cenozoic topographic evolution of western-central US. <em>GSA Annual Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c"><b>Peng, D.</b>, Liu, L., Chen, L. and Li, S. (2020). Late-Cretaceous Izanagi flat subduction below East Asia and tectonic responses. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Liu, L., <b>Peng, D.</b>, Wang, Y. and Hu, J. (2020). Differences and similarities of lithosphere deformation during flat-slab subduction and plume underplating. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c"><b>Peng, D.</b>, Liu, L., Liu, Y.<sup>*</sup>, Hu, J. and Li, S. (2019). Formation of East Asian stagnant slabs due to a westward Cenozoic mantle wind. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c">Liu, L., Hu, J., Zhou, Q., Liu, Y. and <b>Peng, D.</b> (2019). Formation of slab tears controls Earth's major silicic volcanism. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c"><b>Peng, D.</b>, Liu, L. and Hu, J. (2018). Understanding subduction dynamics in the Southwest Pacific. <em>AGU Fall Meeting.</em></span></div>
+      <div class="ref nonum"><span class="c"><b>Peng, D.</b> and Leng, W. (2016). Analytical and numerical simulation of uplift at the Tibet–Sichuan boundary. <em>AGU Fall Meeting.</em></span></div>
+    </div>
+    <p class="note-star"><sup>*</sup> Student I mentored.</p>
+  </section>
+
+  <section>
+    <h2>Teaching &amp; Mentoring</h2>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Research mentoring</b>, UIUC</span></div>
+      <ul class="bul">
+        <li>Yiming Liu (visiting graduate student) — guided research led to a publication in <em>Earth and Planetary Science Letters.</em></li>
+        <li>Yanchong Li (graduate student) — guided research led to publications in <em>Earth-Science Reviews</em> and <em>Nature Communications</em>, plus several AGU presentations.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Teaching assistant</b>, UIUC</span></div>
+      <ul class="bul">
+        <li>GEOL 104 — Geology of the National Parks (Spring 2021).</li>
+        <li>GEOL 117 — The Oceans (Fall 2018, Fall 2020).</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="t"><b>Teaching assistant</b>, USTC</span></div>
+      <ul class="bul">
+        <li>Introduction to Earth Science (Fall 2016).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fieldwork</h2>
+    <div class="entry">
+      <div class="row"><span class="t"><b>R/V <em>Thomas G. Thompson</em> research cruise</b>, South Pacific Ocean</span><span class="d">Nov – Dec 2023</span></div>
+      <ul class="bul">
+        <li>Installed and deployed ocean-bottom seismometers (OBS) near the Lau Basin and the Samoa Hotspot to collect seismic data.</li>
+        <li>Conducted dredging near the Samoa Hotspot and the Cook Islands, and cut, classified, and described the recovered rock samples on board.</li>
+      </ul>
+    </div>
+    <div class="entry"><div class="row"><span class="t">Baraboo, Wisconsin</span><span class="d">2021</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Kentland and Williamsport, Indiana</span><span class="d">2019</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Sugar Creek, Indiana</span><span class="d">2017</span></div></div>
+    <div class="entry"><div class="row"><span class="t">Chaohu, Anhui, China</span><span class="d">2014</span></div></div>
+  </section>
+
+  <section>
+    <h2>Service</h2>
+    <ul class="plain">
+      <li><b>Manuscript reviewer</b> for <em>Geophysical Research Letters</em>, <em>Journal of Geophysical Research: Solid Earth</em>, <em>Geology</em>, <em>Tectonophysics</em>, <em>Geochemistry, Geophysics, Geosystems</em> (G-Cubed), <em>Physics of the Earth and Planetary Interiors</em>, <em>Geoscience Letters</em>, <em>Proceedings of the Royal Society A</em>, <em>PNAS Nexus</em>, and <em>Scientific Reports</em>.</li>
+      <li>Department colloquium coordinator, UIUC (Fall 2018).</li>
+      <li>Volunteer, Engineering Open House, UIUC.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Outreach</h2>
+    <ul class="plain">
+      <li>"Why do some slabs stagnate?" — EGU Geodynamics Blog (2022). <a href="https://blogs.egu.eu/divisions/gd/2022/03/09/why-do-some-slabs-stagnate/">[link]</a></li>
+    </ul>
+  </section>
+
+</body>
+</html>
